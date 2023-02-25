@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #1D232F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card{
+    background-color: #313A49;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 18px;
+    position: relative;
+}
+
+.reload{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    left: 200px;
+    top: 90%;
+    cursor: pointer;
+}
